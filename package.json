@@ -14,5 +14,13 @@
   "type": "module",
   "workspaces": [
     "src/ecommerce_frontend"
-  ]
+  ],
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "framer-motion": "^11.0.6",
+    "react-query": "^3.39.3",
+    "react-router-dom": "^6.22.1"
+  }
 }
