@@ -22,9 +22,8 @@ function Products() {
 
     return (
         <div>
-            <Card/>
-            {/* <Grid templateColumns="repeat(3,1fr)" gap={4}>
-                {
+            <Grid templateColumns="repeat(3,1fr)" gap={4}>
+                {/* {
                     data.pages.map((group,i) =>(
                         <React.Fragment key={i}>
                             {
@@ -36,9 +35,16 @@ function Products() {
                             }
                         </React.Fragment>
                     ))
-                }
+                } */}
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+
             </Grid>
-            <Flex mt='10' justifyContent='center'>
+            {/* <Flex mt='10' justifyContent='center'>
                 <Button
                 onClick={() => fetchNextPage()}
                 isDisabled={!hasNextPage||isFetchingNextPage}

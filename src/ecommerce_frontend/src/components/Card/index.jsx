@@ -11,7 +11,7 @@ function Card({ item }) {
         <Box borderWidth='1px' borderRadius='lg' overflow='hidden' p='3' >
             <Link to={`#`}>
             <Image src='https://imvm.letgo.com:443/v1/files/6065208e9b034-OLXAUTOTR/image' alt='product' loading='lazy'></Image>
-            <Image src='https://imvm.letgo.com/v1/files/1742c7d5b8044-OLXAUTOTR/image' alt='product' loading='lazy'></Image>
+            {/* <Image src='https://imvm.letgo.com/v1/files/1742c7d5b8044-OLXAUTOTR/image' alt='product' loading='lazy'></Image> */}
 
                 <Box p='2'>
                     <Box d='plex' alignItems='baseline'>
