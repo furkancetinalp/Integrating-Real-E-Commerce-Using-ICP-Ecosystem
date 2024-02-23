@@ -22,7 +22,7 @@ function Products() {
 
     return (
         <div>
-            card
+            <Card/>
             {/* <Grid templateColumns="repeat(3,1fr)" gap={4}>
                 {
                     data.pages.map((group,i) =>(
