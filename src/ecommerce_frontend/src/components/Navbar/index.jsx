@@ -1,14 +1,16 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 import styles from './styles.module.css'
-import { Button } from "@chakra-ui/react";
+import { Flex, Box, Heading, FormControl, FormLabel, Input, Button, Alert, } from "@chakra-ui/react";
+import { Formik } from 'formik';
+import { useNavigate } from 'react-router-dom';
 
 function Navbar() {
   return (
     <nav className={styles.nav}>
             <div className={styles.left}>
                 <div className={styles.logo}>
-                    <Link to="/">e-commerce</Link>
+                    <Link to="/">Main Page</Link>
                 </div>
             </div>
 
@@ -19,7 +21,7 @@ function Navbar() {
             </ul>
             <div className={styles.right}>
                 <Link to='/signin'>
-                    <Button colorScheme='pink'>Register</Button>
+                    <Button colorScheme='pink'>Login</Button>
 
                 </Link>
                 <Link to='signup'>
