@@ -10,7 +10,7 @@ In order to increase the use of blockchain, it is necessary to transfer the area
 
 <h1>
   
-In this project, a popular e-commerce company in Turkey which is named Letgo is selected. E-commerce marketplace integration is impelented without any API documentation.
+In this project, a popular e-commerce company in Turkey which is named Letgo is selected. E-commerce marketplace integration is implemented without any API documentation.
 </h1>
 
 ![letgo-video-ilan-696x392](https://github.com/furkancetinalp/Integrating-Real-E-Commerce-Using-ICP-Ecosystem/assets/99509540/86eb81ca-32c0-4d6c-8676-cfe060fe46f4)
