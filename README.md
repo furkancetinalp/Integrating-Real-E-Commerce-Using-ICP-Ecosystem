@@ -44,6 +44,7 @@ sendProductLetgo => send product method
 <H2>INSTRUCTION</H2>
 (Make sure node modules are installed)
 
+```
 # Starts the replica, running in the background
 dfx start --background
 
