@@ -69,6 +69,12 @@ cliend will be informed with 204 status code.
 
 ![Ekran Görüntüsü (230)](https://github.com/furkancetinalp/Integrating-Real-E-Commerce-Using-ICP-Ecosystem/assets/99509540/5e0cc4ad-cf88-415a-9338-39b924817929)
 
+5) These products are currently published in the Letgo (Some of them was rejected because of irrelevant pictures) (ALL ITEMS ARE ADDED FROM ICP)
+![Ekran Görüntüsü (233)](https://github.com/furkancetinalp/Integrating-Real-E-Commerce-Using-ICP-Ecosystem/assets/99509540/fec0bce2-058c-4573-9f8c-23f9c4fc96af)
+
+![Ekran Görüntüsü (227)](https://github.com/furkancetinalp/Integrating-Real-E-Commerce-Using-ICP-Ecosystem/assets/99509540/f9da3ed6-3e98-4986-afba-c1ddaa9544ae)
+
+
 
 
 
