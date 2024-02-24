@@ -53,10 +53,13 @@ dfx start --background
 dfx deploy
 ```
 
-After program starts, it redirects the products page, just because there was no import from marketplace or sending product to marketplace,
+1) After program starts, it redirects the products page, just because there was no import from marketplace or sending product to marketplace,
 cliend will be informed with 204 status code. 
 
 ![Ekran Görüntüsü (224)](https://github.com/furkancetinalp/Integrating-Real-E-Commerce-Using-ICP-Ecosystem/assets/99509540/ad8a427c-c1d9-4c36-a480-943a04bba3d7)
+
+2) We switch to the login page and type real email and password to connect Letgo
+![Ekran Görüntüsü (220)](https://github.com/furkancetinalp/Integrating-Real-E-Commerce-Using-ICP-Ecosystem/assets/99509540/6dbddfc1-18e0-47eb-9b76-27ddc7e00cfb)
 
 
 
