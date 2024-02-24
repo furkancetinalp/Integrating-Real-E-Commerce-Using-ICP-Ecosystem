@@ -6,24 +6,24 @@ import { Link } from 'react-router-dom'
 function Card({ item }) {
     // const {addToBasket,items} = useBasket();
     // const findBasketItem = items.find(data => data._id === item._id);
-
+    console.log("burada",item);
     return (
         <Box borderWidth='1px' borderRadius='lg' overflow='hidden' p='3' >
             <Link to={`#`}>
-            <Image src='https://imvm.letgo.com:443/v1/files/6065208e9b034-OLXAUTOTR/image' alt='product' loading='lazy'></Image>
+            <Image src={`${item.image_url}`} alt='product' loading='lazy'></Image>
             {/* <Image src='https://imvm.letgo.com/v1/files/1742c7d5b8044-OLXAUTOTR/image' alt='product' loading='lazy'></Image> */}
 
                 <Box p='2'>
                     <Box d='plex' alignItems='baseline'>
-                        30/30/12
+                        {item.created_at}
                     </Box>
 
                     <Box mt='1' fontWeight='semibold' as='h4' lineHeight='tight'>
-                        TİTLE
+                        {item.title}
                     </Box>
 
                     <Box>
-                        100
+                        {item.price}
                     </Box>
                 </Box>
 
