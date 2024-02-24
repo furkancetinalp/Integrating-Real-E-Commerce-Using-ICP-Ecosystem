@@ -80,7 +80,14 @@ cliend will be informed with 204 status code.
 7) After sending the item to Letgo from ICP, it is published within minutes
 ![Ekran Görüntüsü (228)](https://github.com/furkancetinalp/Integrating-Real-E-Commerce-Using-ICP-Ecosystem/assets/99509540/8d8b6be5-6178-4e77-a6af-ab7689ab938a)
 
+For the test purpose, these imageId's can be used:
 
+2f9103bbf1374-OLXAUTOTR
+657402bffbf94-OLXAUTOTR
+f4413c0d6cb84-OLXAUTOTR
+387f292d79264-OLXAUTOTR
+68fdf1c821704-OLXAUTOTR
+952414f414954-OLXAUTOTR
 
 
 
