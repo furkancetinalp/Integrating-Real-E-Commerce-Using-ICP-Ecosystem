@@ -74,7 +74,7 @@ cliend will be informed with 204 status code.
 
 ![Ekran Görüntüsü (227)](https://github.com/furkancetinalp/Integrating-Real-E-Commerce-Using-ICP-Ecosystem/assets/99509540/f9da3ed6-3e98-4986-afba-c1ddaa9544ae)
 
-6) Sending product to Letgo from ICP
+6) Sending product to Letgo from ICP (CategoryId can be selected from import_categories and get_all_categories_from_canister methods; just because Letgo does not allow to add image from url, they directly takes from form data, So, imageId's are get manually)
 ![Ekran Görüntüsü (215)](https://github.com/furkancetinalp/Integrating-Real-E-Commerce-Using-ICP-Ecosystem/assets/99509540/0d5022eb-8843-4393-8fb6-8707edad4a7e)
 
 7) After sending the item to Letgo from ICP, it is published within minutes
