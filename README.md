@@ -24,12 +24,19 @@ Canisters:
 
 
 get_all_categories_from_canister => gets the imported categories from marketplace
+<br/>
 get_all_products_from_canister => gets imported categories from marketplace
+<br/>
 get_category_by_name  => gets category by its name
+<br/>
 get_product => gets product by its unique id which is assigned by Letgo
+<br/>
 import_categories => imports all categories from Letgo and saves into canister
+<br/>
 import_products => imports user's products from Letgo and saves into canister
+<br/>
 login_letgo => login to Letgo method
+<br/>
 sendProductLetgo => send product method
 
 
