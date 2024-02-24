@@ -21,9 +21,9 @@ function Navbar() {
             </div>
 
             <ul>
-                <li>
-                    <Link to="/">Products</Link>
-                </li>
+                <Link to='/sendproduct'>
+                    <Button colorScheme='green' >SendProduct</Button>
+                </Link>
             </ul>
             <div className={styles.right}>
                 {/* <Link to='/signin'>

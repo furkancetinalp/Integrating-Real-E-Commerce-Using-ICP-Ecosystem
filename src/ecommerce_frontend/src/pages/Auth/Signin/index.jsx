@@ -43,7 +43,6 @@ function Signin() {
             </div>);
           }
           else {
-            console.log("hataya girdi")
             localStorage.removeItem("token");
             localStorage.removeItem("userid");
             return (<Error401 />)
@@ -54,10 +53,9 @@ function Signin() {
       catch (error) {
         localStorage.removeItem("token");
         localStorage.removeItem("userid");
-        console.log("catche!!!");
         bag.setErrors({ general: "Login Failed!!" });
 
-        return (<div>hata!!!!!!!!!</div>);
+        return (<div>error!!!!!!!!!</div>);
 
       }
     }

@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Signin from './pages/Auth/Signin';
 import Products from './pages/Products';
 import ProductDetail from './pages/ProductDetail';
+import SendProduct from './pages/SendProduct';
 function App() {
   // const [greeting, setGreeting] = useState('');
   // ecommerce_backend.greet("furkan").then((item) => {
@@ -37,7 +38,8 @@ function App() {
 
             <Route path='/' element={<Products />} ></Route>
             <Route path='product/:product_id' element={<ProductDetail />} ></Route>
-
+            <Route path='/sendproduct' element={<SendProduct />} ></Route>
+            
             <Route path='/signin' element={<Signin />}></Route>
           </Routes>
         </div>
