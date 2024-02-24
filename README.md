@@ -61,6 +61,15 @@ cliend will be informed with 204 status code.
 2) We switch to the login page and type real email and password to connect Letgo
 ![Ekran Görüntüsü (220)](https://github.com/furkancetinalp/Integrating-Real-E-Commerce-Using-ICP-Ecosystem/assets/99509540/6dbddfc1-18e0-47eb-9b76-27ddc7e00cfb)
 
+3) After successful login, client is directed to main page
+![Ekran Görüntüsü (225)](https://github.com/furkancetinalp/Integrating-Real-E-Commerce-Using-ICP-Ecosystem/assets/99509540/a73410c0-7075-4559-b902-4da8c59741cb)
+
+4) As it seen, there is no product. With the 'Import Products' button, we can import products from Letgo and save them. After importing:
+![Ekran Görüntüsü (223)](https://github.com/furkancetinalp/Integrating-Real-E-Commerce-Using-ICP-Ecosystem/assets/99509540/9143e311-9c02-449e-a4d5-1008b1c91854)
+
+![Ekran Görüntüsü (230)](https://github.com/furkancetinalp/Integrating-Real-E-Commerce-Using-ICP-Ecosystem/assets/99509540/5e0cc4ad-cf88-415a-9338-39b924817929)
+
+
 
 
 
