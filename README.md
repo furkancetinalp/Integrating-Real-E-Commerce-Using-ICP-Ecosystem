@@ -18,6 +18,7 @@ In this project, a popular e-commerce company in Turkey which is named Letgo is 
 
 <h1>SIMPLE DOCUMENTATION AND INSTRUCTION</h1>
 
+<h3> NOTE!!! IN ORDER TO TEST THE PROGRAM, IT IS REQUIRED TO HAVE A REAL LETGO ACCOUNT </h3>
 <H2>DOCUMENTATION</H2>
 
 Canisters:
