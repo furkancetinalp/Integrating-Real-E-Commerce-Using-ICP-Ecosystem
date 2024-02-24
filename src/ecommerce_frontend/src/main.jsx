@@ -5,7 +5,7 @@ import './index.scss';
 import './reset.css'
 import { ChakraProvider } from '@chakra-ui/react';
 import { QueryClient, QueryClientProvider, useQuery } from 'react-query'
-
+import { AuthProvider } from './contexts/AuthContext';
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
@@ -19,7 +19,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <QueryClientProvider client={queryClient}>
       <ChakraProvider>
-        <App />
+        <AuthProvider>
+          <App />
+        </AuthProvider>
       </ChakraProvider>
     </QueryClientProvider>
 

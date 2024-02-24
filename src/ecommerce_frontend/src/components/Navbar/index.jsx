@@ -4,8 +4,14 @@ import styles from './styles.module.css'
 import { Flex, Box, Heading, FormControl, FormLabel, Input, Button, Alert, } from "@chakra-ui/react";
 import { Formik } from 'formik';
 import { useNavigate } from 'react-router-dom';
-
+import { useAuth } from '../../contexts/AuthContext';
 function Navbar() {
+    const {loggedIn,logout} = useAuth();
+    console.log(loggedIn);
+
+    const handleLogOut = async() =>{
+        await logout();
+    }
   return (
     <nav className={styles.nav}>
             <div className={styles.left}>
@@ -20,13 +26,31 @@ function Navbar() {
                 </li>
             </ul>
             <div className={styles.right}>
-                <Link to='/signin'>
+                {/* <Link to='/signin'>
                     <Button colorScheme='pink'>Login</Button>
 
-                </Link>
-                {/* <Link to='signup'>
-                    <Button colorScheme='pink'>SignUp</Button>
                 </Link> */}
+                {
+                    !loggedIn && (
+                        <>
+                          <Link to='./signin'>
+                            <Button colorScheme='green'>Login</Button>
+                          </Link>
+                          
+                        </>
+                      )
+                }
+                {
+                    loggedIn && (
+                        <>
+                          <Link to='#'>
+                            <Button  colorScheme='pink' onClick={handleLogOut}>Logout</Button>
+                          </Link>
+                          
+                        </>
+                      )
+                }
+               
             </div>
             {/* <ul>
                 <li><Link to="/">Home</Link></li>

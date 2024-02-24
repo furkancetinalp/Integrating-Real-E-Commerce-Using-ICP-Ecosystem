@@ -5,7 +5,9 @@ import { useNavigate } from 'react-router-dom';
 import { ecommerce_backend } from 'declarations/ecommerce_backend';
 import Error401 from '../../Error401';
 import Success200 from '../../Success200';
+import { useAuth } from '../../../contexts/AuthContext';
 function Signin() {
+  const {login} = useAuth();
   const toast = useToast()
   const toastIdRef = React.useRef()
 
@@ -27,8 +29,9 @@ function Signin() {
 
           console.log("id", id);
           if (id != undefined) {
-            localStorage.setItem("token", token);
-            localStorage.setItem("userid", id);
+            // localStorage.setItem("token", token);
+            // localStorage.setItem("userid", id);
+            login(data["Ok"]);
             addToast();
             var timer = setTimeout(function() {
               
