@@ -5,7 +5,8 @@ The e-commerce sector has a very important place in the world's software system.
 
 In order to increase the use of blockchain, it is necessary to transfer the areas that people use most commonly to the blockchain. This project was carried out to expand the use of the blockchain area and to show that the e-commerce system operating in the web2 field can be transferred to the blockchain with ICP.
 
-![Internet-Computer-logo](https://github.com/furkancetinalp/Integrating-Real-E-Commerce-Using-ICP-Ecosystem/assets/99509540/b02f7233-a138-4d3f-91c5-40d88d260f63)
+![full-Internet-Computer-logo](https://github.com/furkancetinalp/Integrating-Real-E-Commerce-Using-ICP-Ecosystem/assets/99509540/5be71aea-2f90-4f6b-a4a6-8333879ebdbd)
+
 
 <h1>
   
