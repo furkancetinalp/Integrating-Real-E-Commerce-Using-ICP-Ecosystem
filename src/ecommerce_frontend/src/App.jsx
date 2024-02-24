@@ -30,14 +30,14 @@ function App() {
 
   return (
     <BrowserRouter>
+      <Navbar />
       <div>
-        <Navbar />
-        <div id='content'>
+        <div className='content'>
           <Routes>
-            
+
             <Route path='/' element={<Products />} ></Route>
             <Route path='product/:product_id' element={<ProductDetail />} ></Route>
-        
+
             <Route path='/signin' element={<Signin />}></Route>
           </Routes>
         </div>
