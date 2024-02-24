@@ -83,10 +83,15 @@ cliend will be informed with 204 status code.
 For the test purpose, these imageId's can be used:
 
 2f9103bbf1374-OLXAUTOTR
+<br
 657402bffbf94-OLXAUTOTR
+<br/>
 f4413c0d6cb84-OLXAUTOTR
+<br/>
 387f292d79264-OLXAUTOTR
+<br/>
 68fdf1c821704-OLXAUTOTR
+<br/>
 952414f414954-OLXAUTOTR
 
 
