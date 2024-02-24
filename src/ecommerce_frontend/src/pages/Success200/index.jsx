@@ -4,7 +4,7 @@ function Success200() {
     return (
         <div>
             <Alert status='error'>
-                <AlertIcon />
+                <AlertIcon  alignItems='self-end' display='grid'/>
                 <AlertTitle>SUCCESS!</AlertTitle>
                 <AlertDescription>SUCCESS</AlertDescription>
             </Alert>

@@ -1,48 +1,64 @@
 import React from 'react'
-import { Flex, Box, Heading, FormControl, FormLabel, Input, Button, Alert, } from "@chakra-ui/react";
+import { Flex, Box, Heading, FormControl, FormLabel, Input, Button, Alert, AlertIcon,AlertTitle,AlertDescription,useToast} from "@chakra-ui/react";
 import { Formik, useFormik } from 'formik';
 import { useNavigate } from 'react-router-dom';
 import { ecommerce_backend } from 'declarations/ecommerce_backend';
 import Error401 from '../../Error401';
 import Success200 from '../../Success200';
 function Signin() {
-  // const {login} = useAuth();
+  const toast = useToast()
+  const toastIdRef = React.useRef()
+
   const navigate = useNavigate();
-  const [user, setUser] = React.useState({});
+  function addToast() {
+    toastIdRef.current = toast({ description: 'Success',colorScheme:'teal',  status:'success'})
+  }
   const formik = useFormik({
     initialValues: {
       email: "",
       password: "",
     },
+    
     onSubmit: async (values, bag) => {
       try {
         const imp = await ecommerce_backend.login_letgo(values.email, values.password).then((data) => {
           const id = (data["Ok"]["id"]);
           const token = (data["Ok"]["token"]);
-          
-          let check = data["Ok"];
-          if(check !=undefined){
-        
-            localStorage.setItem("token",token);
-            localStorage.setItem("userid",id);
-            return(<Success200/>)
+
+          console.log("id", id);
+          if (id != undefined) {
+            localStorage.setItem("token", token);
+            localStorage.setItem("userid", id);
+            addToast();
+            var timer = setTimeout(function() {
+              
+            }, 3000);
+            navigate("/");
+
+            return(<div>
+              <Success200 />
+            </div>);
           }
-          else{
+          else {
+            console.log("hataya girdi")
             localStorage.removeItem("token");
             localStorage.removeItem("userid");
-            return (<Error401/>)
+            return (<Error401 />)
           }
         });
-        return(<Success200/>)
+        return (<Success200 />);
       }
       catch (error) {
-        bag.setErrors({ general: error.response.data.message })
-        return (<Error401/>)
+        localStorage.removeItem("token");
+        localStorage.removeItem("userid");
+        console.log("catche!!!");
+        bag.setErrors({ general: "Login Failed!!" });
+
+        return (<div>hata!!!!!!!!!</div>);
 
       }
     }
   })
-
   return (
     <div>
       <Flex align='center' width='full' justifyContent='center'>
