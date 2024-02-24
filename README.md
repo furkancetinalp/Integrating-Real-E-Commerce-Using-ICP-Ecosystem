@@ -5,14 +5,14 @@ The e-commerce sector has a very important place in the world's software system.
 
 In order to increase the use of blockchain, it is necessary to transfer the areas that people use most commonly to the blockchain. This project was carried out to expand the use of the blockchain area and to show that the e-commerce system operating in the web2 field can be transferred to the blockchain with ICP.
 
-https://altcoinsbox.com/wp-content/uploads/2023/03/full-Internet-Computer-logo.jpg
+![Internet-Computer-logo](https://github.com/furkancetinalp/Integrating-Real-E-Commerce-Using-ICP-Ecosystem/assets/99509540/b02f7233-a138-4d3f-91c5-40d88d260f63)
 
 <h1>
   
 In this project, a popular e-commerce company in Turkey which is named Letgo is selected. E-commerce marketplace integration is impelented without any API documentation.
 </h1>
 
-https://static.techinside.com/uploads/2023/06/image-79.png
+![letgo-video-ilan-696x392](https://github.com/furkancetinalp/Integrating-Real-E-Commerce-Using-ICP-Ecosystem/assets/99509540/86eb81ca-32c0-4d6c-8676-cfe060fe46f4)
 
 
 
