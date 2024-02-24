@@ -16,10 +16,21 @@ In this project, a popular e-commerce company in Turkey which is named Letgo is 
 ![letgo-video-ilan-696x392](https://github.com/furkancetinalp/Integrating-Real-E-Commerce-Using-ICP-Ecosystem/assets/99509540/86eb81ca-32c0-4d6c-8676-cfe060fe46f4)
 
 
+<h1>SIMPLE DOCUMENTATION AND INSTRUCTION</h1>
+
+<H2>DOCUMENTATION</H2>
+
+Canisters:
 
 
-
-
+get_all_categories_from_canister => gets the imported categories from marketplace
+get_all_products_from_canister => gets imported categories from marketplace
+get_category_by_name  => gets category by its name
+get_product => gets product by its unique id which is assigned by Letgo
+import_categories => imports all categories from Letgo and saves into canister
+import_products => imports user's products from Letgo and saves into canister
+login_letgo => login to Letgo method
+sendProductLetgo => send product method
 
 
 
