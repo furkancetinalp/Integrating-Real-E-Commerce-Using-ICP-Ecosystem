@@ -1,15 +1,15 @@
 import React from 'react'
 import { Alert,AlertTitle,AlertDescription,AlertIcon } from '@chakra-ui/react'
-function Error204() {
+function Success200() {
     return (
         <div>
             <Alert status='error'>
                 <AlertIcon />
-                <AlertTitle>ERROR 204!</AlertTitle>
-                <AlertDescription>No Content !!!!</AlertDescription>
+                <AlertTitle>SUCCESS!</AlertTitle>
+                <AlertDescription>SUCCESS</AlertDescription>
             </Alert>
         </div>
     )
 }
 
-export default Error204
+export default Success200

@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Signin from './pages/Auth/Signin';
 import Products from './pages/Products';
+import ProductDetail from './pages/ProductDetail';
 function App() {
   // const [greeting, setGreeting] = useState('');
   // ecommerce_backend.greet("furkan").then((item) => {
@@ -33,12 +34,10 @@ function App() {
         <Navbar />
         <div id='content'>
           <Routes>
-            {
-            <Route path='/' element={<Products />} ></Route>
-            /* 
-            <Route path='product/:product_id' element={<ProductDetail />} ></Route>
             
-            <Route path='/signup' element={<Signup />}></Route> */}
+            <Route path='/' element={<Products />} ></Route>
+            <Route path='product/:product_id' element={<ProductDetail />} ></Route>
+        
             <Route path='/signin' element={<Signin />}></Route>
           </Routes>
         </div>

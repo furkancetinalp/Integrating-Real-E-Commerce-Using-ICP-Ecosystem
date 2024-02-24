@@ -24,9 +24,9 @@ function Navbar() {
                     <Button colorScheme='pink'>Login</Button>
 
                 </Link>
-                <Link to='signup'>
+                {/* <Link to='signup'>
                     <Button colorScheme='pink'>SignUp</Button>
-                </Link>
+                </Link> */}
             </div>
             {/* <ul>
                 <li><Link to="/">Home</Link></li>
