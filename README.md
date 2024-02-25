@@ -95,7 +95,9 @@ f4413c0d6cb84-OLXAUTOTR
 952414f414954-OLXAUTOTR
 
 
-<h1>IMPORTANT!!!!SITUATIONS TO BE CONSIDERED DURING TESTING PROCESSES</h1>
+<h1>IMPORTANT!!!!
+<br/>
+SITUATIONS TO BE CONSIDERED DURING TESTING PROCESSES</h1>
 While doing these operations, it may be thought that the project is faulty. It is necessary to pay attention to the following points that appear to be errors:
 
 1) When we go to the routes in the frontend (home page, login, sendProducts) and refresh the browser, the following error appears:
